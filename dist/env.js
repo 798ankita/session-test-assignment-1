@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DB_DIALECT = exports.DB_PORT = exports.DB_HOST = exports.DB_PASSWORD = exports.DB_USERNAME = exports.DATABASE = exports.PORT = void 0;
+exports.PORT = process.env.PORT;
+exports.DATABASE = JSON.stringify(process.env.DATABASE);
+exports.DB_USERNAME = JSON.stringify(process.env.DB_USERNAME);
+exports.DB_PASSWORD = process.env.DB_PASSWORD;
+exports.DB_HOST = process.env.DB_HOST;
+exports.DB_PORT = Number(process.env.DB_PORT);
+exports.DB_DIALECT = process.env.DB_DIALECT;
